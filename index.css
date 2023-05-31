@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.page {
+	padding: 30px;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.code-mount {
+	padding-right: 10px;
+}
+
+.fan-mount {
+	padding-left: 10px;
+}
+
+.code-mount, .fan-mount {
+	display: inline-block;
+	vertical-align: top;
+}
+
+pre {
+	margin: 0;
+}
+
+.code-mount {
+	padding-right: 200px;
+}
+
+.code {
+	position: relative;
+
+	width: 300px;
+	height: 200px;
+	padding: 15px;
+	border: solid 1px #ccf;
+	display: block;
+}
+
+pre, code, textarea {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 15px;
+	margin: 0 !important;
+	display: block;
+}
+
+code, textarea {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+textarea {
+	background-color: transparent;
+	color: transparent;
+	caret-color: black;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+canvas {
+	background-color: black;
+}
+
+.file-upload {
+	border: solid 1px #ccc;
+}
+
+.hidden {
+	position: absolute;
+	opacity: 0;
+}
+
+.file-upload {
+	position: relative;
+	display: inline-block;
+	width: 102px;
+  height: 102px;
+  overflow: hidden;
+}
+
+.file-upload label {
+	position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.file-upload video {
+	position: absolute;
+}
